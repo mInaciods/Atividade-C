@@ -1,0 +1,24 @@
+#include <stdio.h>
+	#include <stdlib.h>
+	
+	int main(){
+	    int valor1, valor2, valornovo;
+	 
+	    printf("Digite o valor1 = ");
+	    scanf("%i",&valor1);
+	    printf("Digite o valor2 = ");
+	    scanf("%i",&valor2);
+		
+		printf("Primeiro valor:%i\n", valor1);
+		printf("Segundo valor:%i\n", valor2);
+		
+			    
+	    valornovo = valor1;
+	    valor1 = valor2;
+	    valor2 = valornovo;
+	    
+	    printf("O novo valor 1 sera:  %i\n", valor1);
+	    printf("O novo valor 2 sera: %i\n", valor2);
+	    
+	    return 0;
+	}
