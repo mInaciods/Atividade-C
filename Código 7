@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int peso;
+ 
+    printf("Digite peso em quilos do prato = ");
+    scanf("%i",&peso);
+    
+    int total = peso * 45;
+    
+    printf("O valor a pagar e R$ %i", total);
+    
+    return 0;
+}
